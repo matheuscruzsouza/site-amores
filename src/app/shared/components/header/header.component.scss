@@ -1,0 +1,17 @@
+:host {
+  .site-header {
+    .content {
+      .dropdown-toggle {
+        @apply px-6 py-2.5 font-medium text-xs leading-tight uppercase rounded hover:bg-sky-700 hover:shadow-lg focus:bg-sky-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-sky-800 active:shadow-lg active:text-white transition duration-150 ease-in-out flex items-center whitespace-nowrap lg:hidden;
+      }
+
+      @apply w-full flex flex-row justify-between items-center;
+    }
+
+    @apply w-full bg-sky-500 px-4 h-40 text-white;
+  }
+
+  .site-nav {
+    @apply flex-row gap-2.5 uppercase hidden lg:flex;
+  }
+}
